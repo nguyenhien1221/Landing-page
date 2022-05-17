@@ -1,5 +1,6 @@
 
 /* header */
+
 .header{
     padding: 20px 0;
     margin-bottom: 60px;
@@ -19,13 +20,21 @@
     justify-content: space-between;
     margin: 0 auto; 
 }
+.close-btn{
+    display: none;
+}
+
+#sidemenu_icon{
+    display: none;
+}
 .header_nav{
     display: flex;
     align-items: center;
 }
 .header_nav_items{
     display: flex;
-    margin-right: 131px;
+    justify-self: center;
+    align-items: center;
 }
 
 .header_nav_item{

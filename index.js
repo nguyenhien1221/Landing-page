@@ -1,3 +1,5 @@
+
+
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -9,4 +11,13 @@ function scrollFunction() {
     document.getElementById("navbar").style.padding = "20px 0px";
     document.getElementById("navbar").style.boxShadow = "unset"
   }
+}
+
+
+
+function closeMenu(){
+  document.getElementById('sidenav').style.right = '-200px';
+}   
+function openMenu(){
+  document.getElementById('sidenav').style.right = '0px'
 }
